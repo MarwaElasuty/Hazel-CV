@@ -74,7 +74,7 @@ button[name="contact-btn"]:hover{
 .container {
     min-height: 90vh;
     background-color: #f08e80;
-    padding: 1% 15%;
+    padding: 1% 10%;
 }
 
 .heading {
@@ -118,6 +118,8 @@ button[name="contact-btn"]:hover{
 
 .specialist-skills {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
 }
 
 .specialist-skills>ul {
@@ -142,12 +144,12 @@ button[name="contact-btn"]:hover{
 
 }
 .tech-container{
-    padding: 5% 15%;
+    padding: 5% 10%;
 
 }
 
 .speaking-container{
-    padding: 5% 15%;
+    padding: 5% 10%;
     background-color: antiquewhite;
 }
 
@@ -200,6 +202,12 @@ button[name="contact-btn"]:hover{
     .speaking-blog > *{
         width: 100%;
     }
+    .specialist-skills>ul{
+        width: 100%;
+    }
+    .heading {
+        font-size: 37px;
+    }
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
@@ -215,6 +223,12 @@ button[name="contact-btn"]:hover{
     }
     .speaking-blog > *{
         width: 100%;
+    }
+    .specialist-skills>ul{
+        width: 100%;
+    }
+    .heading {
+        font-size: 36px;
     }
 }
 
@@ -232,6 +246,12 @@ button[name="contact-btn"]:hover{
     .speaking-blog > *{
         width: 100%;
     }
+    .specialist-skills>ul{
+        width: 100%;
+    }
+    .heading {
+        font-size: 35px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -247,6 +267,12 @@ button[name="contact-btn"]:hover{
     }
     .speaking-blog > *{
         width: 100%;
+    }
+    .specialist-skills>ul{
+        width: 100%;
+    }
+    .heading {
+        font-size: 34px;
     }
 }
 
