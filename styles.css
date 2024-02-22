@@ -78,10 +78,11 @@ button[name="contact-btn"]:hover{
 }
 
 .heading {
-    font-size: 47px;
+    font-size: 39px;
     color: white;
     padding: 76px 0;
     letter-spacing: 3px;
+    width: 71%;
 }
 
 .mission {
@@ -120,10 +121,10 @@ button[name="contact-btn"]:hover{
     display: flex;
     flex-wrap: wrap;
     row-gap: 15px;
+    column-gap: 95px;
 }
 
 .specialist-skills>ul {
-    width: 50%;
     list-style-type: none;
 }
 
@@ -203,10 +204,11 @@ button[name="contact-btn"]:hover{
         width: 100%;
     }
     .specialist-skills>ul{
-        width: 100%;
+        width: 37%;
     }
     .heading {
         font-size: 37px;
+        width: 100%;
     }
 }
 
@@ -225,10 +227,12 @@ button[name="contact-btn"]:hover{
         width: 100%;
     }
     .specialist-skills>ul{
-        width: 100%;
+        width: 37%;
     }
     .heading {
         font-size: 36px;
+        width: 100%;
+
     }
 }
 
@@ -247,10 +251,12 @@ button[name="contact-btn"]:hover{
         width: 100%;
     }
     .specialist-skills>ul{
-        width: 100%;
+        width: 37%;
     }
     .heading {
         font-size: 35px;
+        width: 100%;
+
     }
 }
 
@@ -273,6 +279,8 @@ button[name="contact-btn"]:hover{
     }
     .heading {
         font-size: 34px;
+        width: 100%;
+
     }
 }
 
