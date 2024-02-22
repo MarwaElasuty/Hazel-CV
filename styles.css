@@ -42,6 +42,9 @@ nav {
     column-gap: 5px;
 }
 
+.nav-display-btn{
+    display: none;
+}
 
 .navbar-list {
     display: flex;
@@ -84,7 +87,7 @@ ul {
 
 ul a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 
@@ -148,17 +151,17 @@ img[alt="menu-burger"] {
 
     .ul-list {
         display: none;
-    position: absolute;
-    top: 80px;
-    right: 20px;
-    border: 5px solid #ffffff;
-    padding: 58px;
-    background-color: wheat;
-    color: black;
-    font-size: 25px;
-    z-index: 2;
-    text-align: center;
-    border-radius: 76px;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        border: 5px solid #ffffff;
+        padding: 58px;
+        background-color: wheat;
+        color: black;
+        font-size: 25px;
+        z-index: 2;
+        text-align: center;
+        border-radius: 76px;
     }
 
     ul a {
@@ -213,6 +216,9 @@ img[alt="menu-burger"] {
     }
 
 
+    .nav-display-btn{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
@@ -233,9 +239,9 @@ img[alt="menu-burger"] {
         position: absolute;
         top: 80px;
         right: 20px;
-        border: 5px solid #ffffff;
+        border: 5px solid #518581;
         padding: 58px;
-        background-color: wheat;
+        background-color: white;
         color: black;
         font-size: 25px;
         z-index: 2;
@@ -274,12 +280,13 @@ img[alt="menu-burger"] {
         display: none;
     }
 
-
-
     .menu-btns {
         display: block;
         padding: 5px;
         border-radius: 10px;
+    }
+    .nav-display-btn{
+        display: block;
     }
 }
 
@@ -302,85 +309,14 @@ img[alt="menu-burger"] {
         position: absolute;
         top: 80px;
         right: 20px;
-        border: 5px solid #ffffff;
+        border: 5px solid #518581;
         padding: 58px;
-        background-color: wheat;
+        background-color: white;
         color: black;
         font-size: 25px;
         z-index: 2;
         text-align: center;
         border-radius: 76px;
-    }
-
-    .ul-list {
-        display: none;
-    position: absolute;
-    top: 80px;
-    right: 20px;
-    border: 5px solid #ffffff;
-    padding: 58px;
-    background-color: wheat;
-    color: black;
-    font-size: 25px;
-    z-index: 2;
-    text-align: center;
-    border-radius: 76px;
-    }
-
-    img[alt="menu-burger"] {
-        display: block;
-    }
-
-    .ul-list li {
-        padding-bottom: 22px;
-    }
-
-    nav {
-        padding: 32px;
-    }
-
-    .nav-btns {
-        display: none;
-    }
-
-
-
-
-    .menu-btns {
-        display: block;
-        background-color: white;
-        padding: 5px;
-        border-radius: 10px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-
-    ul {
-        flex-direction: column;
-    }
-
-    .ul-list a:hover {
-        color: white;
-    }
-
-    ul a {
-        color: white;
-    }
-
-    .display {
-        display: none;
-    position: absolute;
-    top: 80px;
-    right: 20px;
-    border: 5px solid #ffffff;
-    padding: 58px;
-    background-color: wheat;
-    color: black;
-    font-size: 25px;
-    z-index: 2;
-    text-align: center;
-    border-radius: 76px;
     }
 
     .ul-list {
@@ -414,15 +350,87 @@ img[alt="menu-burger"] {
         display: none;
     }
 
-
-
     .menu-btns {
         display: block;
         background-color: white;
         padding: 5px;
         border-radius: 10px;
     }
+    .nav-display-btn{
+        display: block;
+    }
 }
+
+@media screen and (max-width: 600px) {
+
+    ul {
+        flex-direction: column;
+    }
+
+    .ul-list a:hover {
+        color: white;
+    }
+
+    ul a {
+        color: white;
+    }
+
+    .display {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        border: 5px solid #518581;
+        padding: 58px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+        z-index: 2;
+        text-align: center;
+        border-radius: 76px;
+    }
+
+    .ul-list {
+        display: none;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    border: 5px solid #ffffff;
+    padding: 58px;
+    background-color: wheat;
+    color: black;
+    font-size: 25px;
+    z-index: 2;
+    text-align: center;
+    border-radius: 76px;
+    }
+
+    img[alt="menu-burger"] {
+        display: block;
+    }
+
+    .ul-list li {
+        padding-bottom: 22px;
+    }
+
+    nav {
+        padding: 32px;
+    }
+
+    .nav-btns {
+        display: none;
+    }
+    .menu-btns {
+        display: block;
+        background-color: white;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .nav-display-btn{
+        display: block;
+    }
+}
+
 
 
 
