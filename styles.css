@@ -39,6 +39,7 @@ nav {
     color: white;
     flex-wrap: wrap;
     row-gap: 20px;
+    column-gap: 5px;
 }
 
 
