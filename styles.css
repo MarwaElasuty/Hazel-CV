@@ -275,14 +275,16 @@ button[name="contact-btn"]:hover{
         width: 100%;
     }
     .specialist-skills>ul{
-        width: 100%;
+        width: 50%;
     }
     .heading {
         font-size: 34px;
         width: 100%;
 
     }
+    
 }
+
 
 footer{
     background-color: black;
